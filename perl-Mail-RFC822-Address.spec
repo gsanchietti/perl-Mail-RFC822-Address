@@ -11,6 +11,7 @@ BuildArch:      noarch
 BuildRequires:  perl(ExtUtils::MakeMaker)
 BuildRequires:  perl(CPAN)
 Requires:       perl(:MODULE_COMPAT_%(eval "`%{__perl} -V:version`"; echo $version))
+BuildRequires:  perl-generators
 
 %description
 Mail::RFC822::Address validates email addresses against the grammar
